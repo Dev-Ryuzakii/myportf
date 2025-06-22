@@ -53,7 +53,7 @@ const Navbar = () => {
           <ResumeButton
             as={motion.a}
             whileHover={{ y: -2 }}
-            href="/Abdulrasaq-Falade-Resume.pdf"
+            href="https://drive.google.com/file/d/1OxMUcas8jX0U8gkSImTJuM4o5H9ircpr/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
