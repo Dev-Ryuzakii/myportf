@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import Lottie from 'lottie-react';
 import Typewriter from 'typewriter-effect';
 import heroBg from '../assets/hero-blob.json';
-import { FaReact, FaMobileAlt } from 'react-icons/fa';
-import { SiFlutter, SiDart } from 'react-icons/si';
+import { FaReact, FaMobileAlt, FaBrain, FaCode } from 'react-icons/fa';
+import { SiFlutter, SiDart, SiPython } from 'react-icons/si';
 
 const Hero = () => {
   return (
@@ -20,13 +20,13 @@ const Hero = () => {
           style={{ position: 'relative', zIndex: 2 }}
         >
           <Greeting>Hi, I'm</Greeting>
-          <Name>Abdulrasaq Falade</Name>
+          <Name>Abdulrasaq Olamilekan Falade</Name>
           <TypewriterWrap>
             <Typewriter
               options={{
                 strings: [
-                  'Full Stack & Mobile Developer.',
-                  'React, Flutter & Dart Enthusiast.',
+                  'AI Engineer.',
+                  'Software Engineer.',
                   'I build futuristic digital solutions.'
                 ],
                 autoStart: true,
@@ -38,13 +38,15 @@ const Hero = () => {
             />
           </TypewriterWrap>
           <IconRow>
+            <FaBrain size={32} color="#00e676" title="AI Engineer" />
+            <FaCode size={32} color="#00e676" title="Software Engineer" />
+            <FaMobileAlt size={32} color="#00e676" title="Mobile Developer" />
             <FaReact size={32} color="#00e676" title="React" />
             <SiFlutter size={32} color="#00e676" title="Flutter" />
-            <SiDart size={32} color="#00e676" title="Dart" />
-            <FaMobileAlt size={32} color="#00e676" title="Mobile" />
+            <SiPython size={32} color="#00e676" title="Python" />
           </IconRow>
           <Description>
-            I craft exceptional web and mobile experiences with code, creativity, and a vision for the future.
+            I’m an AI Engineer, Software Engineer, and Mobile Developer passionate about building intelligent systems and seamless digital experiences. I combine creativity, logic, and innovation to craft solutions that think, adapt, and inspire the future.
           </Description>
           <CTAButton 
             as={motion.button}

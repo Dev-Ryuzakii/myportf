@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { FaReact, FaMobileAlt, FaPython, FaNodeJs, FaJs, FaBrain } from 'react-icons/fa';
-import { SiFlutter, SiDart } from 'react-icons/si';
+import { FaReact, FaMobileAlt, FaPython, FaNodeJs, FaJs, FaBrain, FaCode } from 'react-icons/fa';
+import { SiFlutter, SiDart, SiCplusplus } from 'react-icons/si';
 
 const projects = [
 	{
@@ -22,6 +22,33 @@ const projects = [
 		type: 'web',
 		link: 'https://ofriend.io/',
 	},
+	    {
+        title: 'Tradexas',
+        description:
+            'AI-Powered Trading Platform with real-time market analysis and trading assistant. Features multi-account connectivity and advanced market data analysis.\nRole: Full Stack Developer (Python FastAPI, React).',
+        tech: [<FaReact title="React" />, <FaPython title="Python" />, <FaBrain title="AI/ML" />],
+        image: null,
+        type: 'web',
+        link: 'http://tradexas.com/',
+    },
+    {
+        title: 'J&J Essentials',
+        description:
+            'Modern E-commerce platform for essential products. Built with NestJS and React TypeScript, featuring a responsive Tailwind design.\nRole: Full Stack Developer.',
+        tech: [<FaReact title="React" />, <FaNodeJs title="NestJS" />, <FaJs title="TypeScript" />],
+        image: null,
+        type: 'web',
+        link: 'https://essentialbyjay-nu.vercel.app/',
+    },
+    {
+        title: 'VPS EA API Server',
+        description:
+            'High-performance API server for Tradexas EA (Expert Advisor) running on VPS. Handles automated trading operations and market data processing.\nRole: Backend Developer.',
+        tech: [<SiCplusplus title="C++" />, <FaCode title="MQL5" />],
+        image: null,
+        type: 'web',
+        link: null,
+    },
 	{
 		title: 'Mangaru',
 		description:

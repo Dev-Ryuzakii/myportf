@@ -14,13 +14,12 @@ const About = () => {
             viewport={{ once: true }}
           >
             <AboutText>
-              I'm a passionate Full Stack Developer who loves turning complex problems into elegant solutions. 
-              With a strong foundation in both frontend and backend technologies, I strive to create 
-              seamless, user-centric applications that make a difference.
+              I'm an AI Engineer and Software Engineer passionate about crafting intelligent and seamless digital experiences. 
+              I merge creativity, logic, and innovation to build smart web and mobile applications that make technology feel effortless and human.
             </AboutText>
             <AboutText>
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source 
-              projects, or sharing my knowledge with the developer community through blog posts and mentoring.
+              When I’m not developing or training AI models, I’m exploring new tools, building mobile solutions, contributing to open-source projects, 
+              or sharing insights with the developer community through mentorship and collaboration.
             </AboutText>
           </motion.div>
         </ContentWrapper>
