@@ -53,7 +53,7 @@ const Navbar = () => {
           <ResumeButton
             as={motion.a}
             whileHover={{ y: -2 }}
-            href="https://drive.google.com/file/d/1OxMUcas8jX0U8gkSImTJuM4o5H9ircpr/view?usp=sharing"
+            href="https://drive.google.com/file/d/1vZ91EnRgkxUex0NGdYjn7SNxMV3Db3D_/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
